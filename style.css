@@ -1,0 +1,89 @@
+.background
+{
+  background-color: bisque;
+}
+.container{
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-areas:
+  "divs mult mins clear"
+  "seven eight nine plus" 
+  "four five six plus"
+  "one two three ans"
+  "ten ten dot ans";
+}
+.display_cal_output
+{
+  background-color: aquamarine;
+  padding-bottom : 3%;
+}
+#clear{
+  grid-area: clear;
+}
+#one
+{
+  grid-area: one;
+}
+#two
+{
+ grid-area: two; 
+}
+#three
+{
+  grid-area: three;
+}
+#four
+{
+  grid-area: four;
+}
+#five
+{
+  grid-area: five;
+}
+#six
+{
+  grid-area: six;
+}
+#seven
+{
+  grid-area: seven;
+}
+#eight
+{
+  grid-area: eight;
+}
+#nine
+{
+  grid-area: nine;
+}
+#ten
+{
+  grid-area: ten;
+}
+#plus
+{
+  grid-area: plus;
+  padding: 15%;
+}
+#min
+{
+  grid-area: mins;
+}
+#divs
+{
+  grid-area: divs;
+}
+#mult
+{
+  grid-area: mult;
+}
+#ans
+{
+  grid-area: ans;
+  padding: 20%;
+}
+#dot
+{
+  grid-area: dot;
+}
